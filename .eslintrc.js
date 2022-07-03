@@ -8,7 +8,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 'latest',
+    ecmaVersion: 12,
     sourceType: 'module',
   },
   plugins: ['react'],
@@ -27,6 +27,7 @@ module.exports = {
         maxEOF: 1,
       },
     ],
+
     'no-underscore-dangle': [
       'error',
       {
