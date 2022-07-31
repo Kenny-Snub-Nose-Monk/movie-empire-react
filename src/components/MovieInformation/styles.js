@@ -16,15 +16,14 @@ export default makeStyles((theme) => ({
     boxShadow: '0.5em 1em 1em rgb(64, 64, 70)',
     width: '100%',
     [theme.breakpoints.down('md')]: {
-      width: '100%',
+      width: '50%',
       marginBottom: '30px',
-
+      margin: '0 auto',
       // height: '350px',
     },
     [theme.breakpoints.down('sm')]: {
-      margin: '0 auto',
-      height: '300px',
-      marginBottom: '30px',
+      width: '100%',
+      height: '350px',
     },
   },
   genresContainer: {
