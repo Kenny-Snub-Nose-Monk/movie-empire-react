@@ -26,7 +26,7 @@ import axios from 'axios';
 
 import { Link, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { ClassNames } from '@emotion/react';
+// import { ClassNames } from '@emotion/react';
 import useStyles from './styles';
 
 import { MovieList } from '../index';
@@ -140,6 +140,7 @@ const MovieInformation = () => {
               key={genre.name}
               className={classes.links}
               to="/"
+              i={i}
               onClick={() => {
                 dispatch(selectGenreOrCategory(genre.id));
               }}

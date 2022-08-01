@@ -11,14 +11,14 @@ import {
   Profile,
 } from './components';
 import useStyles from './styles';
-// import useAlan from './components/Alan';
+import useAlan from './components/Alan';
 
 const App = () => {
   const classes = useStyles();
 
   const alanBtnContainer = useRef();
 
-  // useAlan();
+  useAlan();
 
   return (
     <div className={classes.root}>
