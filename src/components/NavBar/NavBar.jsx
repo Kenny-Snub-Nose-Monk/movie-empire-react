@@ -10,7 +10,7 @@ import useStyles from './styles';
 import { Sidebar, Search } from '..';
 import { fetchToken, createSessionId, moviesApi } from '../../utils';
 import { setUser, userSelector } from '../../features/auth';
-// import { ColorModeContext } from '../../utils/ToggleColorMode';
+import { ColorModeContext } from '../../utils/ToggleColorMode';
 
 const NavBar = () => {
   const classes = useStyles();
@@ -21,7 +21,7 @@ const NavBar = () => {
   const dispatch = useDispatch();
   const { isAuthenticated, user } = useSelector(userSelector);
 
-  // const colorMode = useContext(ColorModeContext);
+  const colorMode = useContext(ColorModeContext);
 
   // console.log(user);
 
@@ -58,7 +58,7 @@ const NavBar = () => {
               <Menu />
             </IconButton>
           )}
-          <IconButton color="inherit" sx={{ ml: 1 }} onClick={() => {}}>
+          <IconButton color="inherit" sx={{ ml: 1 }} onClick={colorMode.toggleColorMode}>
             {theme.palette.mode === 'dark' ? <Brightness4 /> : <Brightness7 />}
           </IconButton>
           {!isMobile && <Search />}

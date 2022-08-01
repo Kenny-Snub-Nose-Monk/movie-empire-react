@@ -15,15 +15,22 @@ export default makeStyles((theme) => ({
     borderRadius: '20px',
     boxShadow: '0.5em 1em 1em rgb(64, 64, 70)',
     width: '100%',
-    [theme.breakpoints.down('md')]: {
+
+    [theme.breakpoints.down('lg')]: {
       width: '50%',
       marginBottom: '30px',
       margin: '0 auto',
       // height: '350px',
     },
+    [theme.breakpoints.down('md')]: {
+      margin: '0 auto',
+      // height: '350px',
+      marginBottom: '30px',
+    },
     [theme.breakpoints.down('sm')]: {
       width: '100%',
-      height: '350px',
+      height: '300px',
+      marginBottom: '30px',
     },
   },
   genresContainer: {
