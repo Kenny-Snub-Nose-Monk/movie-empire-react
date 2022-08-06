@@ -6,7 +6,6 @@ import {
   ButtonGroup,
   Box,
   CircularProgress,
-  useMediaQuery,
   Rating,
   Grid,
 } from '@mui/material';
