@@ -1,3 +1,20 @@
+# WatchMe Movie WebSite
+
+## Description
+  WatchMe Movie WebSite uses TMDB API to provide the latest move information. You can search any movie easily and add them to your favorite or watch list. One big point for this project is included Alan AI which is NLP (Nautral Lanugage Processing) function. You can try to use your voice to search the movie or make fun with it.
+  For examples:
+  1. Search for iron man.
+  2. Go to "top rate" or "popular" or "Action" or "Comedy"
+  3. Give me something funny
+  4. It's Valentine's Day.
+  5. What is your first impression of me?
+  6. Surprise me
+
+## Learning Purpose
+   Solid the knowledge for Redux, Redux toolkit, API connection (TMDB) and it's also my first time to use UI package (Material UI) to make RWD, Dark Mode, styling. 
+   
+[]()
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
