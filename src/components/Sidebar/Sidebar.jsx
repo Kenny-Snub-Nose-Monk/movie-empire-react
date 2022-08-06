@@ -17,8 +17,8 @@ const categories = [
 
 // const demoCategories = ['Comedy', 'Action', 'Horror', 'Animation'];
 
-const redLogo = 'https://fontmeme.com/permalink/210930/8531c658a743debe1e1aa1a2fc82006e.png';
-const blueLogo = 'https://fontmeme.com/permalink/210930/6854ae5c7f76597cf8680e48a2c8a50a.png';
+const redLogo = 'https://fontmeme.com/permalink/220806/38656eb11f1a9db242b131edc1ba2d4a.png';
+const blueLogo = 'https://fontmeme.com/permalink/220806/984749f5f03330ae3164ca581cdf8238.png';
 
 function Sidebar({ setMobileOpen }) {
   const { genreIdOrCategoryName } = useSelector((state) => state.currentGenreOrCategory);
@@ -32,7 +32,7 @@ function Sidebar({ setMobileOpen }) {
       <Link to="/" className={classes.imageLink}>
         <img
           className={classes.image}
-          src={theme.palette.mode === 'light' ? redLogo : blueLogo}
+          src={theme.palette.mode === 'light' ? blueLogo : redLogo}
           alt="WatchMe Logo"
         />
       </Link>

@@ -79,7 +79,7 @@ const NavBar = () => {
                 <Avatar
                   style={{ width: 30, height: 30 }}
                   alt={user.username}
-                  src={`https://www.themoviedb.org/t/p/w64_and_h64_face${user?.avatar?.tmdb?.avatar_path}`}
+                  src="https://www.gravatar.com/avatar/9925838a44ce5b69ae681716d0c90b44.jpg?s=150"
                 />
               </Button>
             )}
