@@ -11,7 +11,7 @@
   6. Surprise me
 
 ## Learning Purpose
-   The main idea is from [JavaScript Mastery](https://www.youtube.com/c/JavaScriptMastery), For me, to solid the knowledge for Redux, Redux toolkit, API connection (TMDB) and it's also my first time to use UI package (Material UI) to make RWD, Dark Mode, styling. After this project, I had realized I need to more dive into React Hook, Router, Redux and Axios. Really enjoy learning the thing from fake it. Fake it until you make it.
+   The main idea is from [JavaScript Mastery](https://www.youtube.com/c/JavaScriptMastery). For me, to solid the knowledge for Redux, Redux toolkit, API connection (TMDB) and it's also my first time to use UI package (Material UI) to make RWD, Dark Mode, styling. After this project, I had realized I need to more dive into React Hook, Router, Redux and Axios. Really enjoy learning the thing from fake it. Fake it until you make it.
    
 ![Screenshot](./WatchMe.png)
 
