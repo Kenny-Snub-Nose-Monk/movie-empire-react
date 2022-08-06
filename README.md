@@ -13,7 +13,7 @@
 ## Learning Purpose
    Solid the knowledge for Redux, Redux toolkit, API connection (TMDB) and it's also my first time to use UI package (Material UI) to make RWD, Dark Mode, styling. 
    
-[]()
+[Screenshot](./WatchMe.png)
 
 # Getting Started with Create React App
 
