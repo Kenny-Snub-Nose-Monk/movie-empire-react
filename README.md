@@ -1,7 +1,7 @@
 # WatchMe Movie WebSite
 
 ## Description
-  WatchMe Movie WebSite uses TMDB API to provide the latest move information. You can search any movie easily and add them to your favorite or watch list. One big point for this project is included [Alan AI](https://alan.app/) which is NLP (Nautral Lanugage Processing) function. You can try to use your voice to search the movie.
+  WatchMe Movie WebSite uses TMDB API to provide the latest move information. You can search any movie easily and add them to your favorite or watch list. One big point for this project is included [Alan AI](https://alan.app/) which is NLP (Nautral Lanugage Processing) extention tool. You can try to use your voice to search the movie.
   Try to do below :
   1. Search for iron man.
   2. Go to "top rate" or "popular" or "Action" or "Comedy"
